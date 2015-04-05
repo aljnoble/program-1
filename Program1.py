@@ -37,7 +37,8 @@ def dijkstras_shortest_path(src, dst, graph, adj):
         sequence.reverse()
         return sequence
     else:
-        return []
+        print "No path possible."
+        return None
 
 
 def navigation_edges(level, cell):
